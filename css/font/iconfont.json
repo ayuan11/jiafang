@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36579",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "f006c",
+      "unicode_decimal": 983148
+    },
+    {
+      "icon_id": "394909",
+      "name": "主页 ",
+      "font_class": "icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10715453",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}
