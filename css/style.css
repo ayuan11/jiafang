@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'font.iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot') format('embedded-opentype'),
+        url('./font/iconfont.woff2') format('woff2'),
+        url('./font/iconfont.woff') format('woff'),
+        url('./font/iconfont.ttf') format('truetype'),
+        url('./font/iconfont.svg') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html,body{
+      width: 100%;
+      height: 100%;
+  }
+  .flx{
+      display: flex;
+  }
+@media screen and (min-device-width:1150px){
+    .hd{
+        color: yellow;
+    }
+    .inner{
+        width: 1150px;
+        margin: auto;
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        left: 0;
+        top: 0;
+       line-height: 130px;
+        width: 240px;
+        height: 120px;
+        text-align: center;
+        background: #fff;
+        color: green;
+        font-size: 50px;
+    }
+    .topBox{
+        width: 100%;
+        height: 40px;
+        justify-content: flex-end;
+    }
+    .link{
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .nav{
+        width: 140%;
+        height: 80px;
+        background: green;
+    }
+    .navBox{
+        width: 100%;
+        height: 80px;
+        justify-content: flex-end;
+    }
+    .navItem{
+        width: 120px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        color: #fff;
+        border-right:1px solid #fff ;
+        
+
+    }
+}
+@media screen and (min-device-width:650px) and (max-device-width:1150px){
+    .hd{
+        color: red;
+    }
+}
+@media screen and (max-device-width:650px){
+    .hd{
+        color: violet;
+    }
+}
+   
